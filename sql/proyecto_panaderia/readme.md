@@ -54,9 +54,10 @@ Cada tabla incluye sus claves primarias y relaciones con otras tablas según la 
 1.**Creación de modelo** → creación del modelo principal para la base de datos.
 2. **Definición de tablas** → creación de cada entidad con sus atributos y tipos de datos.  
 3. **Relaciones entre tablas** → 1:M y M:M entre productos, compras, ventas y proveedores.  
-4. **Usuarios y roles** → creación de permisos para administrar la base de datos.  
+4. **Carga de datos simulados** → se ingresaron aproximadamente 200 productos, con rangos de precios y volúmenes estimados según observación, además de datos en cada una de las tablas.
+5. **Usuarios y roles** → creación de permisos para administrar la base de datos.  
 5. **Procedimientos almacenados** → para operaciones frecuentes como `cambiar_precio` y `buscar_producto`.  
-6. **Carga de datos simulados** → se ingresaron aproximadamente 200 productos, con rangos de precios y volúmenes estimados según observación.
+6. **Asignación de permisos** → se otorgaron los permisos correspondientes según función del trabajador.
 
 ---
 
@@ -71,26 +72,32 @@ Cada tabla incluye sus claves primarias y relaciones con otras tablas según la 
 ---
 
 ## 💻 Consultas realizadas
--
--
--
--
 
+Durante el desarrollo del proyecto, se realizaron **consultas de verificación y pruebas** para asegurar la correcta implementación del modelo relacional, los procedimientos almacenados, las claves primarias y foráneas, así como la correcta asignación de permisos y roles.  
+
+- Se comprobaron **inserciones y actualizaciones** en todas las tablas, incluyendo productos, ventas y compras.  
+- Se ejecutaron procedimientos almacenados de prueba, como la búsqueda de productos y el cálculo de totales de ventas, para validar su correcto funcionamiento.  
+- Se realizaron consultas de control sobre usuarios y roles para verificar que los **permisos y políticas de contraseñas** se aplicaran correctamente.  
+
+> Nota: Dado que los datos fueron ingresados de manera simulada, estas consultas no buscan análisis estadístico, sino **garantizar la integridad y funcionamiento de la base de datos**.
+> 
 ---
 
 ## 📊 Hallazgos
--
--
--
--
+
+- La panadería ha experimentado un **crecimiento significativo**: duplicó las ventas en los últimos dos años y aumentó la cantidad de productos, compras a proveedores y personal.  
+- La gestión manual de la información se vuelve cada vez más compleja; por ello, se evidencia la **necesidad de contar con una base de datos sólida y centralizada**.  
+- La correcta administración de roles, permisos y procedimientos almacenados permite **mantener la seguridad y consistencia** de los datos sensibles, especialmente información de clientes y proveedores.  
+- Una base de datos bien estructurada facilita la **automatización de tareas recurrentes**, como cálculo de totales de ventas, control de inventario y gestión de precios.
 
 ---
 
 ## 📝 Conclusiones
--
--
--
--
+
+- La construcción de la base de datos **Pantástica** garantiza un manejo estructurado y seguro de la información, evitando errores comunes de duplicidad y pérdida de datos.  
+- La implementación de procedimientos almacenados y la correcta gestión de usuarios y permisos es esencial para mantener la **integridad y seguridad** de los datos internos.  
+- Este proyecto demuestra que, a medida que un negocio crece, **la centralización y profesionalización de la información mediante SQL es indispensable** para un manejo eficiente.  
+- Se recomienda que la panadería cuente con **un encargado de base de datos o administrador de SQL**, capaz de mantener y actualizar el sistema conforme la empresa continúe expandiéndose.
 
 ---
 
@@ -103,8 +110,33 @@ Cada tabla incluye sus claves primarias y relaciones con otras tablas según la 
 - Para replicar con datos propios, reemplazar los registros de productos, proveedores y clientes por información válida.
 
 ### 📝 Pasos para replicar
-1. paso 1
-2. paso 2
+
+1. **Descargar el archivo SQL:** Clonar o descargar el repositorio desde GitHub y ubicar el archivo principal, por ejemplo `pantastica.sql`.  
+2. **Abrir MySQL Workbench:** Conectarse al servidor local o remoto donde se desea crear la base de datos.  
+3. **Ejecutar el script SQL:** Abrir `pantastica.sql` en MySQL Workbench y ejecutar todo el script. Esto realizará automáticamente:  
+   - Eliminación del esquema si existe (`DROP SCHEMA IF EXISTS pantastica;`)  
+   - Creación del esquema con codificación UTF8 (`CREATE SCHEMA pantastica CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;`)  
+   - Selección del esquema (`USE pantastica;`)  
+   - Creación de todas las tablas con sus claves primarias y foráneas  
+   - Inserción de datos de prueba en todas las tablas  
+   - Creación de procedimientos almacenados  
+   - Configuración de usuarios, roles y permisos  
+4. **Verificar la base de datos:** Ejecutar consultas de prueba para comprobar que todas las tablas, relaciones, procedimientos y permisos funcionan correctamente.  
+
+
+---
+
+> **Sugerencias futuras:**  
+> Los procedimientos almacenados implementados en este proyecto fueron creados principalmente para la **presentación del modelo de pruebas** a la empresa.  
+> En versiones futuras se podrían desarrollar procedimientos más complejos y funcionales, tales como:  
+> - Automatización de inserciones de ventas y detalle de ventas.  
+> - Automatización de compras y detalle de compras.  
+> - Mayor control de stock de productos, incluyendo alertas por niveles mínimos.  
+> - Generación de estadísticas y reportes automáticos sobre ventas, compras y clientes.  
+> - Consultas de stock por nombre de producto, además de consultas por ID.  
+> 
+> Estas mejoras permitirían que la base de datos no solo sea un modelo de prueba, sino una **herramienta operativa completa para la panadería**.
+
 
 ---
 
