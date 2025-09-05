@@ -51,13 +51,14 @@ Cada tabla incluye sus claves primarias y relaciones con otras tablas según la 
 
 ## 🔄 Flujo de trabajo / Metodología
 
-1.**Creación de modelo** → creación del modelo principal para la base de datos.
+1. **Creación de modelo** → creación del modelo principal para la base de datos.  
 2. **Definición de tablas** → creación de cada entidad con sus atributos y tipos de datos.  
 3. **Relaciones entre tablas** → 1:M y M:M entre productos, compras, ventas y proveedores.  
-4. **Carga de datos simulados** → se ingresaron aproximadamente 200 productos, con rangos de precios y volúmenes estimados según observación, además de datos en cada una de las tablas.
+4. **Carga de datos simulados** → se ingresaron aproximadamente 200 productos, con rangos de precios y volúmenes estimados según observación, además de datos en cada una de las tablas.  
 5. **Usuarios y roles** → creación de permisos para administrar la base de datos.  
-5. **Procedimientos almacenados** → para operaciones frecuentes como `cambiar_precio` y `buscar_producto`.  
-6. **Asignación de permisos** → se otorgaron los permisos correspondientes según función del trabajador.
+6. **Procedimientos almacenados** → para operaciones frecuentes como `cambiar_precio` y `buscar_producto`.  
+7. **Asignación de permisos** → se otorgaron los permisos correspondientes según función del trabajador.
+
 
 ---
 
