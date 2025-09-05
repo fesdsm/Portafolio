@@ -6,16 +6,17 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 
 ## 🛠️ Pasos realizados
 
-1. Se cargaron y revisaron los datos del archivo `supermarketsales.csv`.
-2. Se inspeccionaron tipos de variables, valores nulos y duplicados.
-3. Se realizó una limpieza menor: conversión de tipos y formato de fecha.
-4. Se aplicó un análisis univariado sobre variables numéricas y categóricas.
-5. Se identificaron y analizaron outliers (se modificaron ciertos outliers para que el valor mínimo fuera 0).
-6. Se estudió la relación entre variables mediante análisis bivariado (correlación, comparaciones entre grupos).
-7. Se exploraron interacciones entre múltiples variables para detectar patrones relevantes.
-8. Se llevó a cabo un análisis temporal para detectar tendencias en el tiempo.
-9. Se extrajeron hallazgos clave y se entregaron recomendaciones finales.
-10. Con el objetivo de mantener un análisis conciso y enfocado, se limitaron las combinaciones de variables analizadas, priorizando aquellas que aportan mayor valor al entendimiento del negocio.
+1. Carga y revisión de los datos del archivo `supermarketsales.csv`.  
+2. Inspección de tipos de variables, valores nulos y duplicados.  
+3. Limpieza menor: conversión de tipos y ajuste de formato de fecha.  
+4. Análisis univariado sobre variables numéricas y categóricas.  
+5. Identificación y tratamiento de outliers (ajuste de valores mínimos a 0 en ciertos casos).  
+6. Estudio de relaciones entre variables mediante análisis bivariado (correlación, comparaciones entre grupos).  
+7. Exploración de interacciones entre múltiples variables para detectar patrones relevantes.  
+8. Análisis temporal orientado a identificar tendencias.  
+9. Extracción de hallazgos clave y formulación de recomendaciones finales.  
+10. Priorización de combinaciones de variables que aportan mayor valor al entendimiento del negocio, manteniendo un análisis conciso y enfocado.  
+
 
 
 ## 📊 Dataset
