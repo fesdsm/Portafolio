@@ -84,6 +84,7 @@ Esta arquitectura permite desacoplar las fuentes del modelo analítico y facilit
 - No se consideran aspectos financieros ni contractuales.
 - El foco está en el diseño técnico y la lógica del proceso ETL.
 - El modelo puede extenderse para nuevos dominios o fuentes sin rediseño completo.
+- El modelo está sujeto a cambios que signifiquen mejoras.
 
 ---
 
