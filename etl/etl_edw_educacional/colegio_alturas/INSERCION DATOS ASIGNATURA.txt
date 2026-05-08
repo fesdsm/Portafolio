@@ -1,0 +1,21 @@
+-- ==============================================================================
+-- CARGA DE DATOS RAW: ASIGNATURAS COLEGIO ALTURAS (ETL STAGE)
+-- Relación directa con especialidades de la tabla DIM_DOCENTE
+-- Formato: MAYÚSCULAS, Comas al inicio, Sin símbolos especiales
+-- ==============================================================================
+
+
+INSERT INTO [dbo].[DIM_ASIGNATURA] (NOMBRE_ASIGNATURA, AREA_CONOCIMIENTO) VALUES
+  ('MATEMATICA', 'CIENCIAS EXACTAS')
+, ('LENGUAJE Y COMUNICACION', 'LENGUAJE')
+, ('INGLES', 'IDIOMAS')
+, ('BIOLOGIA', 'CIENCIAS NATURALES')
+, ('QUIMICA', 'CIENCIAS NATURALES')
+, ('FISICA', 'CIENCIAS NATURALES')
+, ('HISTORIA GEOGRAFIA Y CIENCIAS SOCIALES', 'CIENCIAS SOCIALES')
+, ('EDUCACION CIUDADANA', 'CIENCIAS SOCIALES')
+, ('FILOSOFIA', 'HUMANIDADES')
+, ('ARTES VISUALES', 'ARTES')
+, ('MUSICA', 'ARTES')
+, ('EDUCACION FISICA Y SALUD', 'DEPORTES')
+, ('TECNOLOGIA', 'TECNOLOGIA');

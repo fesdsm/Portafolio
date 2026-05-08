@@ -1,0 +1,10 @@
+-- ==============================================================================
+-- CARGA DE DIMENSIÓN SEMESTRE: COLEGIO ALTURAS
+-- Periodo: 2024 - 2025 (Histórico y Actual)
+-- ==============================================================================
+
+INSERT INTO [dbo].[DIM_SEMESTRE] (NOMBRE_SEMESTRE, ANIO_ACADEMICO) VALUES
+  ('PRIMER SEMESTRE', 2024)
+, ('SEGUNDO SEMESTRE', 2024)
+, ('PRIMER SEMESTRE', 2025)
+, ('SEGUNDO SEMESTRE', 2025);

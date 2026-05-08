@@ -1,0 +1,21 @@
+INSERCION CURSOS: ALTURAS
+
+
+-- ==============================================================================
+-- CARGA DE DIMENSIÓN CURSOS: COLEGIO ALTURAS
+-- Formato: MAYÚSCULAS, Sin símbolos, Comas al inicio
+-- ==============================================================================
+
+INSERT INTO [dbo].[DIM_CURSO] (NOMBRE_CURSO, NIVEL_EDUCATIVO) VALUES
+  ('PRIMERO MEDIO A', 'PRIMERO MEDIO')
+, ('PRIMERO MEDIO B', 'PRIMERO MEDIO')
+, ('PRIMERO MEDIO C', 'PRIMERO MEDIO')
+, ('SEGUNDO MEDIO A', 'SEGUNDO MEDIO')
+, ('SEGUNDO MEDIO B', 'SEGUNDO MEDIO')
+, ('SEGUNDO MEDIO C', 'SEGUNDO MEDIO')
+, ('TERCERO MEDIO A', 'TERCERO MEDIO')
+, ('TERCERO MEDIO B', 'TERCERO MEDIO')
+, ('TERCERO MEDIO C', 'TERCERO MEDIO')
+, ('CUARTO MEDIO A', 'CUARTO MEDIO')
+, ('CUARTO MEDIO B', 'CUARTO MEDIO')
+, ('CUARTO MEDIO C', 'CUARTO MEDIO');
