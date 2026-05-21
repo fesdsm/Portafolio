@@ -1,0 +1,507 @@
+-- ==============================================================================
+-- CARGA DE DATOS RAW: COLEGIO ALTURAS (DIM_ALUMNO)
+-- Total registros generados: 401 (Distribuidos en 12 cursos con tamaños variables)
+-- Tamaños: 1A(29), 1B(31), 1C(35), 2A(28), 2B(40), 2C(30), 3A(32), 3B(36), 3C(41), 4A(33), 4B(38), 4C(28)
+-- ==============================================================================
+
+-- ==========================================================
+-- 1° MEDIO A (29 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('15000001-K', 'Matias', 'Garrido', 'Pérez', '2009-03-12', 'Masculino'),
+('15000002-8', ' IGNACIO ANDRÉS ', 'Silva', '?', '12-03-2009', 'Hombre'),
+('15000003-6', 'sofia belén', 'Molina', NULL, '1900-01-01 00:00:00.000', 'Mujer'),
+('15000004-4', 'Carlos', 'Rojas', 'Díaz', '2009-08-22', 'M'),
+('15000005-2', 'María Paz', 'Soto', 'Soto', '?', 'F'),
+('15000006-0', '  juan pablo ignacio', 'Cabrera', 'López', '2009-11-05', 'm'),
+('15000007-9', 'Ana María de la Luz', 'Ortiz', 'Gómez', '05-11-2009', 'Femenino'),
+('15000008-7', 'LUIS', '?', 'Herrera', '2009-01-18', 'Hombre'),
+('15000009-5', 'Catalina Antonia', 'Navarro', '?', '1900-01-01 00:00:00.000', 'f'),
+('15000010-9', 'Felipe', NULL, 'Vera', '2009-04-30', 'M'),
+('15000011-7', 'Valentina Ignacia Paz', 'Bravo', 'Cáceres', '30-04-2009', 'Femenino'),
+('15000012-5', 'Diego Armando', 'Pino', 'Salazar', '2009-07-14', 'Masculino'),
+('15000013-3', 'Constanza', 'Zúñiga', 'Méndez', '2009/07/14', 'F'),
+('15000014-1', '  benjamín arturo', 'Acuña', 'Fuentes', '2009-09-02', 'M'),
+('15000015-K', 'Javiera', 'Salinas', 'Pardo', '02-09-2009', 'Mujer'),
+('15000016-8', 'Tomás', 'Orellana', NULL, '?', 'Hombre'),
+('15000017-6', 'Florencia de los Ángeles', 'Carrasco', 'Osorio', '2009-12-25', 'Femenino'),
+('15000018-4', 'Joaquín Alonso', 'Bustamante', 'Ponce', '25-12-2009', 'M'),
+('15000019-2', 'Renata Catalina', 'Mancilla', 'San Martín', '2009-02-10', 'F'),
+('15000020-6', 'vicente patricio', 'Sánchez', 'Tapia', '10-02-2009', 'Masculino'),
+('15000021-4', 'Amalia', 'Garrido', 'Cárdenas', '1900-01-01 00:00:00.000', 'Mujer'),
+('15000022-2', 'Martín Elías', '?', 'Aguilar', '2009-05-19', 'M'),
+('15000023-0', 'Isabella Victoria', 'Sanhueza', 'Espinoza', '19-05-2009', 'Femenino'),
+('15000024-9', 'Nicolás Ignacio', 'Urrutia', 'Vidal', '2009-08-08', 'Hombre'),
+('15000025-7', 'Julieta', 'Arriagada', 'Peña', '08-08-2009', 'F'),
+('15000026-5', 'GABRIEL OMAR', 'Cerda', '?', '?', 'M'),
+('15000027-3', 'Laura Paz', 'Alvarado', 'Santibáñez', '2009-11-30', 'Femenino'),
+('15000028-1', 'Arturo Prat', 'Cortes', 'Venegas', '30-11-2009', 'Masculino'),
+('15000029-K', 'Magdalena', 'Valenzuela', 'Maldonado', '1900-01-01 00:00:00.000', 'Mujer');
+
+-- ==========================================================
+-- 1° MEDIO B (31 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('15100001-6', 'Consuelo de los Ángeles', 'Céspedes', 'Arancibia', '2009-01-15', 'Femenino'),
+('15100002-4', 'Felipe Antonio', 'Escobar', 'Arias', '15-01-2009', 'M'),
+('15100003-2', 'macarena paz', 'Paredes', 'Leal', '2009-02-28', 'f'),
+('15100004-0', 'Dominga', 'Navarrete', NULL, '1900-01-01 00:00:00.000', 'F'),
+('15100005-9', 'Clara Inés', 'Ruiz', 'Becerra', '2009-04-12', 'Mujer'),
+('15100006-7', '  Cristóbal Alonso ', 'Pacheco', 'Castillo', '12-04-2009', 'm'),
+('15100007-5', 'Blanca Estela', 'Cárdenas', 'Galdames', '2009-06-05', 'Femenino'),
+('15100008-3', 'Ángela', '?', 'Cisternas', '?', 'F'),
+('15100009-1', 'Sebastián Andrés', 'Olivares', 'Riquelme', '2009-08-19', 'Masculino'),
+('15100010-5', 'Amparo del Carmen', 'Gallardo', 'Mesa', '19-08-2009', 'Mujer'),
+('15100011-3', 'Paz', NULL, 'Araya', '2009-10-02', 'F'),
+('15100012-1', 'Sofia Leonor', 'Toledo', 'Zamorano', '02-10-2009', 'Femenino'),
+('15100013-K', 'Guillermo Enrique', 'Godoy', 'Saavedra', '1900-01-01 00:00:00.000', 'Hombre'),
+('15100014-8', 'Celeste Trinidad', 'Miranda', 'Parra', '2009-12-14', 'F'),
+('15100015-6', 'Ema Lucía', 'Carmona', 'Mora', '14-12-2009', 'Mujer'),
+('15100016-4', 'Agustina del Pilar', 'Oyarzún', 'Marín', '2009-01-22', 'Femenino'),
+('15100017-2', 'Belen Andrea', 'Guzmán', NULL, '22-01-2009', 'F'),
+('15100018-0', 'Emilio José', 'Correa', 'Salazar', '2009-03-10', 'M'),
+('15100019-9', 'Gracia', 'Donoso', 'Montes', '10-03-2009', 'Femenino'),
+('15100020-2', 'Isabel Margarita', 'Lira', 'Baeza', '?', 'F'),
+('15100021-0', '  CAROLINA ANDREA', 'Poblete', 'Alarcón', '2009-07-07', 'Mujer'),
+('15100022-9', 'Bruno Marcelo', 'Rivera', 'Castañeda', '07-07-2009', 'Hombre'),
+('15100023-7', 'Ana', '?', 'Lagos', '2009-09-18', 'Femenino'),
+('15100024-5', 'Loreto Paz', 'Maldonado', 'Fuenzalida', '18-09-2009', 'F'),
+('15100025-3', 'Alejandro Magno', 'Valdés', 'Ríos', '1900-01-01 00:00:00.000', 'M'),
+('15100026-1', 'Natalia del Carmen', 'Alarcón', 'San Martín', '2009-11-25', 'Femenino'),
+('15100027-K', 'Melissa', 'Cáceres', NULL, '25-11-2009', 'Mujer'),
+('15100028-8', 'Simón Pedro', 'Garrido', 'Soto', '2009-02-03', 'Masculino'),
+('15100029-6', 'Samantha', 'Pérez', 'Pérez', '03-02-2009', 'F'),
+('15100030-K', 'Alison Marie', 'González', 'González', '?', 'Femenino'),
+('15100031-8', 'Dania Javiera', 'Díaz', 'Díaz', '2009-05-11', 'F');
+
+-- ==========================================================
+-- 1° MEDIO C (35 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('15200001-2', 'Pedro Pablo', 'Rojas', 'Muñoz', '2009-06-29', 'Masculino'),
+('15200002-0', '  tania lorenza', 'Muñoz', 'Rojas', '29-06-2009', 'Femenino'),
+('15200003-9', 'Karla Patricia', 'Silva', 'Tapia', '1900-01-01 00:00:00.000', 'Mujer'),
+('15200004-7', 'Alonso Mateo', 'Soto', '?', '2009-09-15', 'Hombre'),
+('15200005-5', 'Tatiana', 'Contreras', 'Vergara', '15-09-2009', 'F'),
+('15200006-3', 'Fabiola Macarena', 'Martínez', 'Zúñiga', '2009-11-08', 'Femenino'),
+('15200007-1', 'Yasna provoste', 'Sepúlveda', 'Pino', '08-11-2009', 'F'),
+('15200008-K', 'Ignacio José de la Cruz', NULL, 'Acuña', '?', 'M'),
+('15200009-8', 'Marcela', 'Morales', 'Cabrera', '2009-02-14', 'Mujer'),
+('15200010-1', 'Claudia Andrea', 'Rodríguez', 'Navarro', '14-02-2009', 'Femenino'),
+('15200011-K', 'Andrea Paz', 'López', 'Figueroa', '1900-01-01 00:00:00.000', 'F'),
+('15200012-8', 'Pablo Andrés', 'Gómez', 'Reyes', '2009-05-20', 'm'),
+('15200013-6', 'Ximena del Pilar', 'Herrera', 'Orellana', '20-05-2009', 'Femenino'),
+('15200014-4', 'Verónica Isabel', 'Araya', 'Cortes', '2009-07-31', 'F'),
+('15200015-2', 'Cecilia', 'Castro', NULL, '31-07-2009', 'Mujer'),
+('15200016-0', 'Hugo Boss', 'Pérez', 'García', '2009-10-10', 'Masculino'),
+('15200017-9', 'Antonia Belén', 'González', 'Martínez', '10-10-2009', 'Femenino'),
+('15200018-7', '  Catalina Paz ', 'Muñoz', '?', '?', 'F'),
+('15200019-5', 'isidora ignacia', 'Rojas', 'Díaz', '2009-01-25', 'Mujer'),
+('15200020-9', 'SOFIA ANTONIA', 'Díaz', 'Pérez', '25-01-2009', 'f'),
+('15200021-7', 'Martina Jesús', 'Soto', 'Soto', '1900-01-01 00:00:00.000', 'Femenino'),
+('15200022-5', 'Florencia de los Ángeles', 'Contreras', 'Contreras', '2009-04-16', 'F'),
+('15200023-3', 'Camila Andrea', 'Silva', 'Silva', '16-04-2009', 'Femenino'),
+('15200024-1', 'Valentina', 'Martínez', 'Silva', '2009-08-01', 'F'),
+('15200025-K', 'Javiera Paz', 'Sepúlveda', 'Sepúlveda', '01-08-2009', 'Mujer'),
+('15200026-8', 'Maximiliano Andrés', NULL, 'López', '?', 'M'),
+('15200027-6', 'Fernanda Luisa', 'Morales', 'Cabrera', '2009-11-22', 'Femenino'),
+('15200028-4', 'Constanza del Pilar', 'Gómez', 'Reyes', '22-11-2009', 'F'),
+('15200029-2', 'paula', 'López', 'Herrera', '1900-01-01 00:00:00.000', 'Mujer'),
+('15200030-6', 'Daniela Carolina', 'Cabrera', NULL, '2009-03-08', 'Femenino'),
+('15200031-4', 'Romina Paz', 'Reyes', 'Araya', '08-03-2009', 'F'),
+('15200032-2', 'Renata Catalina', 'Herrera', 'Castro', '2009-06-19', 'Femenino'),
+('15200033-0', 'Amalia Inés', 'Araya', 'Rubio', '19-06-2009', 'F'),
+('15200034-9', 'Trinidad María', '?', 'Ramos', '?', 'Mujer'),
+('15200035-7', 'Maite Alejandra', 'Rubio', 'Gutiérrez', '2009-09-27', 'Femenino');
+
+-- ==========================================================
+-- 2° MEDIO A (28 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('16000001-3', 'Josefa', 'Ramos', 'Salazar', '2008-05-14', 'Femenino'),
+('16000002-1', '  Amanda Isabel ', 'Gutiérrez', 'Vera', '14-05-2008', 'F'),
+('16000003-K', 'Ignacia Francisca', 'Salazar', NULL, '1900-01-01 00:00:00.000', 'Mujer'),
+('16000004-8', 'Jorge Luis', 'Vera', 'Bravo', '2008-08-22', 'Masculino'),
+('16000005-6', 'Bárbara Sofía', 'Pizarro', 'Pizarro', '?', 'Femenino'),
+('16000006-4', 'Emilia Victoria', 'Bravo', 'Cáceres', '2008-11-05', 'F'),
+('16000007-2', 'Pascuala Valentina', 'Cáceres', 'Lagos', '05-11-2008', 'Femenino'),
+('16000008-0', 'Antonella del Carmen Paz', 'Lagos', 'Méndez', '2008-01-18', 'F'),
+('16000009-9', 'Rocío', 'Méndez', 'Fuentes', '1900-01-01 00:00:00.000', 'Mujer'),
+('16000010-2', 'Esteban Arturo', NULL, 'Pardo', '2008-04-30', 'M'),
+('16000011-0', 'Mía isabella', 'Fuentes', 'Orellana', '30-04-2008', 'Femenino'),
+('16000012-9', 'Elena Beatriz', 'Pardo', 'Osorio', '2008-07-14', 'F'),
+('16000013-7', 'Isabella Victoria', 'Orellana', 'Ponce', '2008/07/14', 'Femenino'),
+('16000014-5', 'Colomba', 'Osorio', 'San Martín', '2008-09-02', 'F'),
+('16000015-3', 'Julieta Andrea', 'Ponce', '?', '02-09-2008', 'Mujer'),
+('16000016-1', 'Laura', 'San Martín', 'Tapia', '?', 'Femenino'),
+('16000017-K', 'SAMANTHA IGNACIA', 'Sánchez', 'Cárdenas', '2008-12-25', 'Mujer'),
+('16000018-8', 'Magdalena Sofía', 'Tapia', 'Aguilar', '25-12-2008', 'F'),
+('16000019-6', 'Consuelo', 'Cárdenas', 'Espinoza', '2008-02-10', 'Femenino'),
+('16000020-K', 'Pía Ignacia', 'Aguilar', 'Vidal', '10-02-2008', 'F'),
+('16000021-8', 'macarena paz', 'Espinoza', 'Peña', '1900-01-01 00:00:00.000', 'Mujer'),
+('16000022-6', 'Dominga Antonella', 'Vidal', NULL, '2008-05-19', 'Femenino'),
+('16000023-4', 'Rodrigo Andrés', 'Peña', 'Santibáñez', '19-05-2008', 'Hombre'),
+('16000024-2', 'Leonor de la Cruz', 'Alvarado', 'Venegas', '2008-08-08', 'F'),
+('16000025-0', 'Blanca Nieves', 'Santibáñez', 'Maldonado', '08-08-2008', 'Femenino'),
+('16000026-9', 'Ángela Patricia', '?', 'Arancibia', '?', 'F'),
+('16000027-7', 'Rosario Macarena', 'Maldonado', 'Arias', '2008-11-30', 'Femenino'),
+('16000028-5', 'Amparo', 'Arancibia', 'Leal', '30-11-2008', 'Mujer');
+
+-- ==========================================================
+-- 2° MEDIO B (40 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('16100001-K', 'Paz Belén', 'Arias', 'Becerra', '2008-01-15', 'Femenino'),
+('16100002-8', '  Sofia Esperanza', 'Leal', 'Castillo', '15-01-2008', 'F'),
+('16100003-6', 'Guillermina del Carmen', 'Becerra', 'Galdames', '2008-02-28', 'Femenino'),
+('16100004-4', 'Celeste', 'Castillo', 'Cisternas', '1900-01-01 00:00:00.000', 'F'),
+('16100005-2', 'Ema Catalina', 'Galdames', 'Riquelme', '2008-04-12', 'Mujer'),
+('16100006-0', 'Agustina del Pilar', 'Cisternas', 'Mesa', '12-04-2008', 'Femenino'),
+('16100007-9', 'Mauricio Alejandro', 'Riquelme', NULL, '2008-06-05', 'Masculino'),
+('16100008-7', 'Esperanza', 'Mesa', 'Araya', '?', 'F'),
+('16100009-5', 'Gracia María', 'Zamorano', 'Saavedra', '2008-08-19', 'Femenino'),
+('16100010-9', 'Alejandro Magno', 'Álvarez', 'Parra', '19-08-2008', 'Hombre'),
+('16100011-7', 'CAROLINA ANDREA', 'Zamorano', 'Mora', '2008-10-02', 'F'),
+('16100012-5', 'Beatriz Isabel', 'Saavedra', 'Marín', '02-10-2008', 'Mujer'),
+('16100013-3', 'Ana Paula', '?', 'Salazar', '1900-01-01 00:00:00.000', 'Femenino'),
+('16100014-1', 'Loreto', 'Mora', 'Villegas', '2008-12-14', 'F'),
+('16100015-K', 'Alejandra del Pilar', 'Marín', 'Montes', '14-12-2008', 'Femenino'),
+('16100016-8', 'Natalia Carolina', 'Guzmán', 'Baeza', '2008-01-22', 'F'),
+('16100017-6', 'Melissa Andrea', 'Salazar', NULL, '22-01-2008', 'Femenino'),
+('16100018-4', 'Vanessa', 'Correa', 'Alarcón', '2008-03-10', 'Mujer'),
+('16100019-2', 'Samantha Belén', 'Villegas', 'Castañeda', '10-03-2008', 'Femenino'),
+('16100020-6', 'Alison Marie', 'Medina', 'Lagos', '?', 'F'),
+('16100021-4', 'Dania Javiera', 'Montes', 'Fuenzalida', '2008-07-07', 'Femenino'),
+('16100022-2', '  Paula Francisca', 'Vidal', 'Ríos', '07-07-2008', 'F'),
+('16100023-0', 'tania', 'Baeza', 'San Martín', '2008-09-18', 'Femenino'),
+('16100024-9', 'Karla Patricia', 'Donoso', 'Soto', '18-09-2008', 'Mujer'),
+('16100025-7', 'Karen Andrea', 'Alarcón', '?', '1900-01-01 00:00:00.000', 'Femenino'),
+('16100026-5', 'Tatiana', 'Lira', 'Pérez', '2008-11-25', 'F'),
+('16100027-3', 'Fabiola Macarena', 'Castañeda', 'González', '25-11-2008', 'Femenino'),
+('16100028-1', 'Luis Alberto', 'Poblete', 'Díaz', '2008-02-03', 'Masculino'),
+('16100029-K', 'Jocelyn de las Mercedes', NULL, 'Muñoz', '03-02-2008', 'Femenino'),
+('16100030-3', 'Marcela', 'Rivera', 'Rojas', '?', 'Mujer'),
+('16100031-1', 'Claudia Andrea', 'Fuenzalida', 'Tapia', '2008-05-11', 'F'),
+('16100032-K', 'Andrea de la Luz Paz', 'Ríos', 'Vergara', '11-05-2008', 'Femenino'),
+('16100033-8', 'Pamela', 'San Martín', 'Zúñiga', '1900-01-01 00:00:00.000', 'F'),
+('16100034-6', 'Ximena del Pilar', 'Cáceres', 'Pino', '2008-08-20', 'Femenino'),
+('16100035-4', 'Víctor Manuel', 'Garrido', 'Acuña', '20-08-2008', 'm'),
+('16100036-2', 'Cecilia Andrea', 'Soto', NULL, '2008-10-31', 'Femenino'),
+('16100037-0', 'Margarita Rosa', 'Pérez', 'García', '31-10-2008', 'F'),
+('16100038-9', 'Antonia Belén', 'González', 'Martínez', '?', 'Mujer'),
+('16100039-7', 'Catalina de los Reyes', 'Muñoz', 'Díaz', '2008-12-05', 'Femenino'),
+('16100040-0', 'isidora', 'Rojas', 'Pérez', '05-12-2008', 'F');
+
+-- ==========================================================
+-- 2° MEDIO C (30 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('16200001-6', 'SOFIA ANTONIA', 'Díaz', 'Soto', '2008-01-14', 'f'),
+('16200002-4', '  Martina Jesús', 'Soto', 'Contreras', '14-01-2008', 'Femenino'),
+('16200003-2', 'Florencia del Carmen', 'Contreras', 'Silva', '1900-01-01 00:00:00.000', 'F'),
+('16200004-0', 'Cristian', 'Silva', '?', '2008-04-22', 'Masculino'),
+('16200005-9', 'Valentina', 'Martínez', 'Sepúlveda', '22-04-2008', 'Femenino'),
+('16200006-7', 'Javiera Ignacia', 'Sepúlveda', 'López', '2008-06-15', 'Mujer'),
+('16200007-5', 'Eduardo Andrés', NULL, 'Morales', '15-06-2008', 'M'),
+('16200008-3', 'Fernanda Luisa', 'Morales', 'Gómez', '?', 'Femenino'),
+('16200009-1', 'Constanza Andrea', 'Gómez', 'López', '2008-09-08', 'F'),
+('16200010-5', 'paula', 'López', 'Cabrera', '08-09-2008', 'Mujer'),
+('16200011-3', 'Daniela Paz', 'Cabrera', NULL, '2008-11-20', 'Femenino'),
+('16200012-1', 'Romina', 'Reyes', 'Herrera', '20-11-2008', 'F'),
+('16200013-K', 'Renata del Pilar', 'Herrera', 'Araya', '1900-01-01 00:00:00.000', 'Femenino'),
+('16200014-8', 'Amalia Inés', 'Araya', 'Rubio', '2008-02-14', 'F'),
+('16200015-6', 'Trinidad María', '?', 'Ramos', '14-02-2008', 'Mujer'),
+('16200016-4', 'Maite Alejandra', 'Rubio', 'Gutiérrez', '2008-05-05', 'Femenino'),
+('16200017-2', 'Josefa Ignacia', 'Ramos', 'Salazar', '05-05-2008', 'F'),
+('16200018-0', 'Rafael Ángel', 'Gutiérrez', 'Vera', '?', 'Hombre'),
+('16200019-9', 'Ignacia Francisca', 'Salazar', 'Pizarro', '2008-08-12', 'Femenino'),
+('16200020-2', 'Victoria Eugenia', 'Vera', 'Bravo', '12-08-2008', 'F'),
+('16200021-0', 'Bárbara', 'Pizarro', 'Cáceres', '2008-10-25', 'Mujer'),
+('16200022-9', 'Emilia Victoria', 'Bravo', 'Lagos', '25-10-2008', 'Femenino'),
+('16200023-7', 'Pascuala Valentina', 'Cáceres', 'Méndez', '1900-01-01 00:00:00.000', 'F'),
+('16200024-5', 'Antonella del Carmen', 'Lagos', 'Fuentes', '2008-01-09', 'Femenino'),
+('16200025-3', 'Rocío', 'Méndez', NULL, '09-01-2008', 'F'),
+('16200026-1', 'Luz María', 'Fuentes', 'Pardo', '2008-03-30', 'Mujer'),
+('16200027-K', 'Mía isabella', 'Pardo', 'Orellana', '30-03-2008', 'Femenino'),
+('16200028-8', 'Elena Beatriz', NULL, 'Osorio', '?', 'F'),
+('16200029-6', 'Isabella', 'Orellana', 'Ponce', '2008-06-20', 'Femenino'),
+('16200030-K', 'Colomba Paz', 'Osorio', 'San Martín', '20-06-2008', 'F');
+
+-- ==========================================================
+-- 3° MEDIO A (32 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('17000001-K', 'Julieta Andrea', 'Ponce', '?', '2007-05-14', 'Femenino'),
+('17000002-8', '  Laura ', 'San Martín', 'Tapia', '14-05-2007', 'F'),
+('17000003-6', 'SAMANTHA IGNACIA', 'Sánchez', 'Cárdenas', '1900-01-01 00:00:00.000', 'Mujer'),
+('17000004-4', 'Magdalena', 'Tapia', 'Aguilar', '2007-08-22', 'Femenino'),
+('17000005-2', 'Consuelo de los Ángeles', 'Cárdenas', 'Espinoza', '?', 'F'),
+('17000006-0', 'Pía Ignacia', 'Aguilar', 'Vidal', '2007-11-05', 'Femenino'),
+('17000007-9', 'macarena paz', 'Espinoza', 'Peña', '05-11-2007', 'F'),
+('17000008-7', 'Dominga Antonella', 'Vidal', NULL, '2007-01-18', 'Mujer'),
+('17000009-5', 'Andrés Ignacio', 'Peña', 'Santibáñez', '1900-01-01 00:00:00.000', 'Masculino'),
+('17000010-9', 'Leonor de la Cruz', 'Alvarado', 'Venegas', '2007-04-30', 'Femenino'),
+('17000011-7', 'Blanca Nieves', 'Santibáñez', 'Maldonado', '30-04-2007', 'F'),
+('17000012-5', 'Ángela Patricia', '?', 'Arancibia', '2007-07-14', 'Mujer'),
+('17000013-3', 'Rosario Macarena', 'Maldonado', 'Arias', '2007/07/14', 'Femenino'),
+('17000014-1', 'Amparo', 'Arancibia', 'Leal', '2007-09-02', 'F'),
+('17000015-K', 'Paz Belén', 'Arias', 'Becerra', '02-09-2007', 'Mujer'),
+('17000016-8', 'Sofia Esperanza', 'Leal', 'Castillo', '?', 'Femenino'),
+('17000017-6', 'Guillermina del Carmen', 'Becerra', 'Galdames', '2007-12-25', 'F'),
+('17000018-4', 'Celeste', 'Castillo', 'Cisternas', '25-12-2007', 'Mujer'),
+('17000019-2', 'Ema Catalina', 'Galdames', 'Riquelme', '2007-02-10', 'Femenino'),
+('17000020-6', 'Agustina', 'Cisternas', 'Mesa', '10-02-2007', 'F'),
+('17000021-4', 'Belen Andrea', 'Riquelme', NULL, '1900-01-01 00:00:00.000', 'Mujer'),
+('17000022-2', 'Esperanza', 'Mesa', 'Araya', '2007-05-19', 'Femenino'),
+('17000023-0', 'Gracia María', 'Zamorano', 'Saavedra', '19-05-2007', 'F'),
+('17000024-9', 'Isabel Margarita', 'Álvarez', 'Parra', '2007-08-08', 'Mujer'),
+('17000025-7', 'CAROLINA ANDREA', 'Zamorano', 'Mora', '08-08-2007', 'Femenino'),
+('17000026-5', 'Beatriz Isabel', 'Saavedra', 'Marín', '?', 'F'),
+('17000027-3', 'Ana Paula', '?', 'Salazar', '2007-11-30', 'Mujer'),
+('17000028-1', 'Loreto Paz', 'Mora', 'Villegas', '30-11-2007', 'Femenino'),
+('17000029-K', 'Alejandra', 'Marín', 'Montes', '1900-01-01 00:00:00.000', 'F'),
+('17000030-3', 'Natalia Carolina', 'Guzmán', 'Baeza', '2007-02-14', 'Mujer'),
+('17000031-1', 'Melissa Andrea', 'Salazar', NULL, '14-02-2007', 'Femenino'),
+('17000032-K', 'Vanessa', 'Correa', 'Alarcón', '2007-05-05', 'F');
+
+-- ==========================================================
+-- 3° MEDIO B (36 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('17100001-6', 'Samantha Belén', 'Villegas', 'Castañeda', '2007-01-15', 'Femenino'),
+('17100002-4', 'Alison Marie', 'Medina', 'Lagos', '15-01-2007', 'F'),
+('17100003-2', 'Dania Javiera', 'Montes', 'Fuenzalida', '2007-02-28', 'Mujer'),
+('17100004-0', '  Paula Francisca', 'Vidal', 'Ríos', '1900-01-01 00:00:00.000', 'Femenino'),
+('17100005-9', 'tania lorenza', 'Baeza', 'San Martín', '2007-04-12', 'F'),
+('17100006-7', 'Karla Patricia', 'Donoso', 'Soto', '12-04-2007', 'Mujer'),
+('17100007-5', 'Karen Andrea', 'Alarcón', '?', '2007-06-05', 'Femenino'),
+('17100008-3', 'Tatiana', 'Lira', 'Pérez', '?', 'F'),
+('17100009-1', 'Fabiola Macarena', 'Castañeda', 'González', '2007-08-19', 'Mujer'),
+('17100010-5', 'Héctor Manuel', 'Poblete', 'Díaz', '19-08-2007', 'Masculino'),
+('17100011-3', 'Jocelyn de las Mercedes', NULL, 'Muñoz', '2007-10-02', 'Femenino'),
+('17100012-1', 'Marcela', 'Rivera', 'Rojas', '02-10-2007', 'F'),
+('17100013-K', 'Claudia Andrea', 'Fuenzalida', 'Tapia', '1900-01-01 00:00:00.000', 'Mujer'),
+('17100014-8', 'Andrea Paz', 'Ríos', 'Vergara', '2007-12-14', 'Femenino'),
+('17100015-6', 'Pamela', 'San Martín', 'Zúñiga', '14-12-2007', 'F'),
+('17100016-4', 'Ximena del Pilar', 'Cáceres', 'Pino', '2007-01-22', 'Mujer'),
+('17100017-2', 'Verónica Isabel', 'Garrido', 'Acuña', '22-01-2007', 'Femenino'),
+('17100018-0', 'Cecilia Andrea', 'Soto', NULL, '2007-03-10', 'F'),
+('17100019-9', 'Margarita Rosa', 'Pérez', 'García', '10-03-2007', 'Mujer'),
+('17100020-2', 'Antonia Belén', 'González', 'Martínez', '?', 'Femenino'),
+('17100021-0', '  Catalina Paz ', 'Muñoz', 'Díaz', '2007-07-07', 'F'),
+('17100022-9', 'isidora', 'Rojas', 'Soto', '07-07-2007', 'Mujer'),
+('17100023-7', 'SOFIA ANTONIA', 'Díaz', 'Contreras', '2007-09-18', 'Femenino'),
+('17100024-5', 'Martina Jesús', 'Soto', 'Silva', '18-09-2007', 'F'),
+('17100025-3', 'Florencia de los Ángeles', 'Contreras', 'Martínez', '1900-01-01 00:00:00.000', 'Mujer'),
+('17100026-1', 'Oscar Rodrigo', 'Silva', 'Sepúlveda', '2007-11-25', 'M'),
+('17100027-K', 'Valentina', 'Martínez', 'López', '25-11-2007', 'Femenino'),
+('17100028-8', 'Javiera Ignacia', NULL, 'Morales', '2007-02-03', 'F'),
+('17100029-6', 'María José', 'Sepúlveda', 'Gómez', '03-02-2007', 'Mujer'),
+('17100030-K', 'Fernanda Luisa', 'Morales', 'Cabrera', '?', 'Femenino'),
+('17100031-8', 'Constanza Andrea', 'Gómez', 'Reyes', '2007-05-11', 'F'),
+('17100032-6', 'paula belén', 'Cabrera', 'Herrera', '11-05-2007', 'Mujer'),
+('17100033-4', 'Daniela Carolina', 'Reyes', 'Araya', '2007-08-20', 'Femenino'),
+('17100034-2', 'Romina Paz', 'Herrera', 'Rubio', '20-08-2007', 'F'),
+('17100035-0', 'Renata Catalina', 'Araya', 'Ramos', '1900-01-01 00:00:00.000', 'Mujer'),
+('17100036-9', 'Amalia Inés', 'Rubio', 'Gutiérrez', '2007-10-31', 'Femenino');
+
+-- ==========================================================
+-- 3° MEDIO C (41 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('17200001-2', 'Trinidad María', 'Ramos', 'Salazar', '2007-06-29', 'F'),
+('17200002-0', '  Maite Alejandra', 'Gutiérrez', 'Vera', '29-06-2007', 'Mujer'),
+('17200003-9', 'Josefa', 'Salazar', 'Pizarro', '1900-01-01 00:00:00.000', 'Femenino'),
+('17200004-7', 'Amanda Isabel', 'Vera', 'Bravo', '2007-09-15', 'F'),
+('17200005-5', 'Ignacia Francisca', 'Pizarro', 'Cáceres', '15-09-2007', 'Mujer'),
+('17200006-3', 'Victoria Eugenia', 'Bravo', 'Lagos', '2007-11-08', 'Femenino'),
+('17200007-1', 'Bárbara Sofía', 'Cáceres', 'Méndez', '08-11-2007', 'F'),
+('17200008-K', 'Gonzalo Esteban', 'Lagos', 'Fuentes', '?', 'Masculino'),
+('17200009-8', 'Pascuala Valentina', 'Méndez', 'Pardo', '2007-02-14', 'Femenino'),
+('17200010-1', 'Antonella del Carmen Paz', 'Fuentes', 'Orellana', '14-02-2007', 'F'),
+('17200011-K', 'Rocío', NULL, 'Osorio', '1900-01-01 00:00:00.000', 'Mujer'),
+('17200012-8', 'Luz María', 'Pardo', 'Ponce', '2007-05-20', 'Femenino'),
+('17200013-6', 'Mía isabella', 'Orellana', 'San Martín', '20-05-2007', 'F'),
+('17200014-4', 'Elena Beatriz', 'Osorio', '?', '2007-07-31', 'Mujer'),
+('17200015-2', 'Isabella Victoria', 'Ponce', 'Sánchez', '31-07-2007', 'Femenino'),
+('17200016-0', 'Colomba Paz', 'San Martín', 'Tapia', '2007-10-10', 'F'),
+('17200017-9', 'Julieta Andrea', '?', 'Cárdenas', '10-10-2007', 'Mujer'),
+('17200018-7', '  Laura', 'Sánchez', 'Aguilar', '?', 'Femenino'),
+('17200019-5', 'SAMANTHA IGNACIA', 'Tapia', 'Espinoza', '2007-01-25', 'F'),
+('17200020-9', 'Magdalena Sofía', 'Cárdenas', 'Vidal', '25-01-2007', 'Mujer'),
+('17200021-7', 'Consuelo', 'Aguilar', 'Peña', '1900-01-01 00:00:00.000', 'Femenino'),
+('17200022-5', 'Pía Ignacia', 'Espinoza', 'Santibáñez', '2007-04-16', 'F'),
+('17200023-3', 'macarena paz', 'Vidal', 'Alvarado', '16-04-2007', 'Mujer'),
+('17200024-1', 'Dominga Antonella', 'Peña', 'Maldonado', '2007-08-01', 'Femenino'),
+('17200025-K', 'Clara Inés', 'Santibáñez', 'Arancibia', '01-08-2007', 'F'),
+('17200026-8', 'Leonor de la Cruz', 'Alvarado', 'Arias', '?', 'Mujer'),
+('17200027-6', 'Blanca Nieves', 'Maldonado', 'Leal', '2007-11-22', 'Femenino'),
+('17200028-4', 'Ángela Patricia', 'Arancibia', 'Becerra', '22-11-2007', 'F'),
+('17200029-2', 'Iván Zamorano', 'Arias', 'Castillo', '1900-01-01 00:00:00.000', 'Masculino'),
+('17200030-6', 'Amparo', 'Leal', 'Galdames', '2007-03-08', 'Femenino'),
+('17200031-4', 'Paz Belén', 'Becerra', 'Cisternas', '08-03-2007', 'F'),
+('17200032-2', 'Sofia Esperanza', 'Castillo', 'Riquelme', '2007-06-19', 'Mujer'),
+('17200033-0', 'Guillermina del Carmen', 'Galdames', 'Mesa', '19-06-2007', 'Femenino'),
+('17200034-9', 'Celeste', 'Cisternas', 'Zamorano', '?', 'F'),
+('17200035-7', 'Ema Catalina', 'Riquelme', 'Álvarez', '2007-09-27', 'Mujer'),
+('17200036-5', 'Agustina del Pilar', 'Mesa', 'Saavedra', '27-09-2007', 'Femenino'),
+('17200037-3', 'Belen', 'Zamorano', 'Mora', '2007-12-15', 'F'),
+('17200038-1', 'Esperanza', 'Álvarez', 'Marín', '15-12-2007', 'Mujer'),
+('17200039-K', 'Gracia María', 'Saavedra', 'Salazar', '1900-01-01 00:00:00.000', 'Femenino'),
+('17200040-3', 'Isabel Margarita', 'Mora', 'Villegas', '2007-02-20', 'F'),
+('17200041-1', 'CAROLINA ANDREA', 'Marín', 'Montes', '20-02-2007', 'Mujer');
+
+-- ==========================================================
+-- 4° MEDIO A (33 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('18000001-3', 'Beatriz Isabel', 'Salazar', 'Guzmán', '2006-05-14', 'Femenino'),
+('18000002-1', '  Ana Paula ', 'Villegas', 'Correa', '14-05-2006', 'F'),
+('18000003-K', 'Loreto Paz', 'Montes', NULL, '1900-01-01 00:00:00.000', 'Mujer'),
+('18000004-8', 'Alejandra del Pilar', 'Guzmán', 'Villegas', '2006-08-22', 'Femenino'),
+('18000005-6', 'Natalia Carolina', 'Correa', 'Medina', '?', 'F'),
+('18000006-4', 'Melissa', 'Villegas', 'Montes', '2006-11-05', 'Mujer'),
+('18000007-2', 'Vanessa', 'Medina', 'Baeza', '05-11-2006', 'Femenino'),
+('18000008-0', 'Samantha Belén', 'Montes', 'Donoso', '2006-01-18', 'F'),
+('18000009-9', 'Alison Marie', 'Baeza', 'Alarcón', '1900-01-01 00:00:00.000', 'Mujer'),
+('18000010-2', 'Dania Javiera', NULL, 'Lira', '2006-04-30', 'Femenino'),
+('18000011-0', 'Paula Francisca', 'Donoso', 'Castañeda', '30-04-2006', 'F'),
+('18000012-9', 'tania', 'Alarcón', 'Poblete', '2006-07-14', 'Mujer'),
+('18000013-7', 'Karla Patricia', 'Lira', 'Rivera', '2006/07/14', 'Femenino'),
+('18000014-5', 'Karen Andrea', 'Castañeda', 'Fuenzalida', '2006-09-02', 'F'),
+('18000015-3', 'Tatiana', 'Poblete', 'Ríos', '02-09-2006', 'Mujer'),
+('18000016-1', 'Fabiola Macarena', 'Rivera', 'San Martín', '?', 'Femenino'),
+('18000017-K', 'Yasna Provoste', 'Fuenzalida', 'Cáceres', '2006-12-25', 'F'),
+('18000018-8', 'Jocelyn de las Mercedes', 'Ríos', 'Garrido', '25-12-2006', 'Mujer'),
+('18000019-6', 'Marcela', 'San Martín', 'Soto', '2006-02-10', 'Femenino'),
+('18000020-K', 'Claudia Andrea', 'Cáceres', 'Pérez', '10-02-2006', 'F'),
+('18000021-8', 'Marcelo Alejandro', 'Garrido', 'González', '1900-01-01 00:00:00.000', 'Masculino'),
+('18000022-6', 'Pamela', 'Soto', 'Muñoz', '2006-05-19', 'Femenino'),
+('18000023-4', 'Ximena del Pilar', 'Pérez', 'Rojas', '19-05-2006', 'F'),
+('18000024-2', 'Verónica Isabel', 'González', 'Díaz', '2006-08-08', 'Mujer'),
+('18000025-0', 'Mario Alberto', 'Muñoz', 'Soto', '08-08-2006', 'M'),
+('18000026-9', 'Margarita Rosa', '?', 'Contreras', '?', 'Femenino'),
+('18000027-7', 'Antonia Belén', 'Rojas', 'Silva', '2006-11-30', 'F'),
+('18000028-5', 'Catalina Paz', 'Díaz', 'Martínez', '30-11-2006', 'Mujer'),
+('18000029-3', 'isidora', 'Soto', 'Sepúlveda', '1900-01-01 00:00:00.000', 'Femenino'),
+('18000030-7', 'SOFIA ANTONIA', 'Contreras', 'Morales', '2006-02-22', 'F'),
+('18000031-5', 'Martina Jesús', 'Silva', 'Gómez', '22-02-2006', 'Mujer'),
+('18000032-3', 'Florencia de los Ángeles', 'Martínez', 'López', '2006-05-01', 'Femenino'),
+('18000033-1', 'Valentina', 'Sepúlveda', 'Cabrera', '01-05-2006', 'F');
+
+-- ==========================================================
+-- 4° MEDIO B (38 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('18100001-K', 'Javiera Ignacia', 'Morales', 'Reyes', '2006-01-15', 'Femenino'),
+('18100002-8', '  María José', 'Gómez', 'Herrera', '15-01-2006', 'F'),
+('18100003-6', 'Fernanda Luisa', 'López', 'Araya', '2006-02-28', 'Mujer'),
+('18100004-4', 'Constanza Andrea', 'Cabrera', 'Rubio', '1900-01-01 00:00:00.000', 'Femenino'),
+('18100005-2', 'paula belén', 'Reyes', 'Ramos', '2006-04-12', 'F'),
+('18100006-0', 'Daniela Carolina', 'Herrera', 'Gutiérrez', '12-04-2006', 'Mujer'),
+('18100007-9', 'Romina Paz', 'Araya', NULL, '2006-06-05', 'Femenino'),
+('18100008-7', 'Renata Catalina', 'Rubio', 'Salazar', '?', 'F'),
+('18100009-5', 'Amalia Inés', 'Ramos', 'Vera', '2006-08-19', 'Mujer'),
+('18100010-9', 'Trinidad María', 'Gutiérrez', 'Pizarro', '19-08-2006', 'Femenino'),
+('18100011-7', 'Maite Alejandra', 'Salazar', 'Bravo', '2006-10-02', 'F'),
+('18100012-5', 'Josefa', 'Vera', 'Cáceres', '02-10-2006', 'Mujer'),
+('18100013-3', 'Amanda Isabel', '?', 'Lagos', '1900-01-01 00:00:00.000', 'Femenino'),
+('18100014-1', 'Ignacia Francisca', 'Pizarro', 'Méndez', '2006-12-14', 'F'),
+('18100015-K', 'Victoria Eugenia', 'Bravo', 'Fuentes', '14-12-2006', 'Mujer'),
+('18100016-8', 'Bárbara Sofía', 'Cáceres', 'Pardo', '2006-01-22', 'Femenino'),
+('18100017-6', 'Gonzalo Esteban', 'Lagos', NULL, '22-01-2006', 'Masculino'),
+('18100018-4', 'Pascuala Valentina', 'Méndez', 'Orellana', '2006-03-10', 'Mujer'),
+('18100019-2', 'Antonella del Carmen Paz', 'Fuentes', 'Osorio', '10-03-2006', 'Femenino'),
+('18100020-6', 'Rocío', 'Pardo', 'Ponce', '?', 'F'),
+('18100021-4', 'Luz María', 'Orellana', 'San Martín', '2006-07-07', 'Mujer'),
+('18100022-2', '  Mía isabella', 'Osorio', 'Tapia', '07-07-2006', 'Femenino'),
+('18100023-0', 'Elena Beatriz', 'Ponce', 'Sánchez', '2006-09-18', 'F'),
+('18100024-9', 'Isabella Victoria', 'San Martín', 'Cárdenas', '18-09-2006', 'Mujer'),
+('18100025-7', 'Colomba Paz', 'Tapia', '?', '1900-01-01 00:00:00.000', 'Femenino'),
+('18100026-5', 'Julieta Andrea', 'Sánchez', 'Aguilar', '2006-11-25', 'F'),
+('18100027-3', 'Laura', 'Cárdenas', 'Espinoza', '25-11-2006', 'Mujer'),
+('18100028-1', 'SAMANTHA IGNACIA', 'Aguilar', 'Vidal', '2006-02-03', 'Femenino'),
+('18100029-K', 'Magdalena Sofía', NULL, 'Peña', '03-02-2006', 'F'),
+('18100030-3', 'Consuelo', 'Espinoza', 'Alvarado', '?', 'Mujer'),
+('18100031-1', 'Pía Ignacia', 'Vidal', 'Santibáñez', '2006-05-11', 'Femenino'),
+('18100032-K', 'macarena paz', 'Peña', 'Maldonado', '11-05-2006', 'F'),
+('18100033-8', 'Dominga Antonella', 'Alvarado', 'Arancibia', '1900-01-01 00:00:00.000', 'Mujer'),
+('18100034-6', 'Clara Inés', 'Santibáñez', 'Arias', '2006-08-20', 'Femenino'),
+('18100035-4', 'Leonor de la Cruz', 'Maldonado', 'Leal', '20-08-2006', 'F'),
+('18100036-2', 'Blanca Nieves', 'Arancibia', 'Becerra', '2006-10-31', 'Mujer'),
+('18100037-0', 'Ángela Patricia', 'Arias', 'Castillo', '31-10-2006', 'Femenino'),
+('18100038-9', 'Iván Zamorano', 'Leal', 'Galdames', '?', 'Masculino');
+
+-- ==========================================================
+-- 4° MEDIO C (28 alumnos)
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('18200001-6', 'Amparo', 'Becerra', 'Cisternas', '2006-01-14', 'Femenino'),
+('18200002-4', '  Paz Belén', 'Castillo', 'Riquelme', '14-01-2006', 'F'),
+('18200003-2', 'Sofia Esperanza', 'Galdames', 'Mesa', '1900-01-01 00:00:00.000', 'Mujer'),
+('18200004-0', 'Guillermina del Carmen', 'Cisternas', '?', '2006-04-22', 'Femenino'),
+('18200005-9', 'Celeste', 'Riquelme', 'Zamorano', '22-04-2006', 'F'),
+('18200006-7', 'Ema Catalina', 'Mesa', 'Álvarez', '2006-06-15', 'Mujer'),
+('18200007-5', 'Agustina del Pilar', NULL, 'Saavedra', '15-06-2006', 'Femenino'),
+('18200008-3', 'Belen', 'Zamorano', 'Mora', '?', 'F'),
+('18200009-1', 'Esperanza', 'Álvarez', 'Marín', '2006-09-08', 'Mujer'),
+('18200010-5', 'Gracia María', 'Saavedra', 'Guzmán', '08-09-2006', 'Femenino'),
+('18200011-3', 'Isabel Margarita', 'Mora', NULL, '2006-11-20', 'F'),
+('18200012-1', 'CAROLINA ANDREA', 'Marín', 'Villegas', '20-11-2006', 'Mujer'),
+('18200013-K', 'Beatriz Isabel', 'Guzmán', 'Montes', '1900-01-01 00:00:00.000', 'Femenino'),
+('18200014-8', 'Ana Paula', 'Villegas', 'Correa', '2006-02-14', 'F'),
+('18200015-6', 'Loreto Paz', '?', 'Medina', '14-02-2006', 'Mujer'),
+('18200016-4', 'Alejandra del Pilar', 'Montes', 'Baeza', '2006-05-05', 'Femenino'),
+('18200017-2', 'Natalia Carolina', 'Correa', 'Donoso', '05-05-2006', 'F'),
+('18200018-0', 'Melissa', 'Medina', 'Alarcón', '?', 'Mujer'),
+('18200019-9', 'Vanessa', 'Baeza', 'Lira', '2006-08-12', 'Femenino'),
+('18200020-2', 'Samantha Belén', 'Donoso', 'Castañeda', '12-08-2006', 'F'),
+('18200021-0', 'Alison Marie', 'Alarcón', 'Poblete', '2006-10-25', 'Mujer'),
+('18200022-9', 'Dania Javiera', 'Lira', 'Rivera', '25-10-2006', 'Femenino'),
+('18200023-7', 'Paula Francisca', 'Castañeda', 'Fuenzalida', '1900-01-01 00:00:00.000', 'F'),
+('18200024-5', 'tania', 'Poblete', 'Ríos', '2006-01-09', 'Mujer'),
+('18200025-3', 'Karla Patricia', 'Rivera', NULL, '09-01-2006', 'Femenino'),
+('18200026-1', 'Karen Andrea', 'Fuenzalida', 'San Martín', '2006-03-30', 'F'),
+('18200027-K', 'Tatiana', 'Ríos', 'Cáceres', '30-03-2006', 'Mujer'),
+('18200028-8', 'Fabiola Macarena', NULL, 'Garrido', '?', 'Femenino');
+
+
+
+-- ==============================================================================
+-- ACTUALIZACIÓN HISTÓRICA: ALUMNOS EXCLUSIVOS DEL AÑO 2024
+-- (Estos alumnos no tendrán registro en la FACT_MATRICULA de 2025)
+-- ==============================================================================
+
+-- ==========================================================
+-- PROMOCIÓN 2024 (Ex 4° Medio A, B y C - Egresados)
+-- Nacidos aprox en 2006. 15 alumnos de muestra.
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('18300001-K', 'Bastián Ignacio', 'García', 'López', '2006-03-12', 'Hombre'),
+('18300002-8', 'Camila Paz', 'Fernández', 'Molina', '2006-05-24', 'Mujer'),
+('18300003-6', 'Joaquín Andrés', 'Vargas', 'Reyes', '2006-08-15', 'M'),
+('18300004-4', 'Valentina Antonia', 'Salinas', 'Pérez', '2006-11-02', 'Femenino'),
+('18300005-2', 'Matías Eduardo', 'Ortega', 'Cabrera', '2006-01-30', 'Masculino'),
+
+('18400001-K', 'Sofía Belén', 'Mendoza', 'Soto', '2006-04-18', 'Mujer'),
+('18400002-8', 'Tomás Agustín', 'Navarrete', 'Gómez', '2006-07-09', 'Hombre'),
+('18400003-6', 'Isidora Paz', 'Cárdenas', 'Valdés', '2006-09-21', 'Femenino'),
+('18400004-4', 'Lucas Mateo', 'Pino', 'Araya', '2006-12-11', 'M'),
+('18400005-2', 'Catalina Ignacia', 'Fuentes', 'Vergara', '2006-02-05', 'F'),
+
+('18500001-K', 'Benjamín Arturo', 'Orellana', 'Bravo', '2006-06-14', 'Masculino'),
+('18500002-8', 'Constanza Andrea', 'Carrasco', 'Mancilla', '2006-08-28', 'Mujer'),
+('18500003-6', 'Felipe Ignacio', 'Urrutia', 'Cerda', '2006-10-17', 'Hombre'),
+('18500004-4', 'Julieta', 'Alvarado', 'Cortés', '2006-12-03', 'Femenino'),
+('18500005-2', 'Diego Armando', 'Valenzuela', 'Pacheco', '2006-05-09', 'M');
+
+-- ==========================================================
+-- FUGAS / RETIRADOS 2024 (Estuvieron en 2024, se fueron en 2025)
+-- Nacidos entre 2007 y 2009.
+-- ==========================================================
+INSERT INTO DIM_ALUMNO (RUT_ALUMNO, NOMBRES, APELLIDO_PATERNO, APELLIDO_MATERNO, FECHA_NACIMIENTO, GENERO) VALUES
+('16888001-1', 'Sebastián Elías', 'Rojas', 'San Martín', '2008-04-11', 'Hombre'), -- Iba en 2° Medio
+('16888002-K', 'Laura Inés', 'Sanhueza', 'Espinoza', '2009-07-22', 'Mujer'),   -- Iba en 1° Medio
+('16888003-8', 'Gabriel Omar', 'Arriagada', 'Peña', '2007-09-05', 'Masculino'), -- Iba en 3° Medio
+('16888004-6', 'Magdalena Sofía', 'Céspedes', 'Arancibia', '2008-11-19', 'Femenino'), -- Iba en 2° Medio
+('16888005-4', 'Cristóbal Alonso', 'Escobar', 'Arias', '2009-01-30', 'M'); -- Iba en 1° Medio
